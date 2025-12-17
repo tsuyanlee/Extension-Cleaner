@@ -37,6 +37,9 @@ A simple Python command-line tool to find and delete files by extension from a s
 ```bash
 python cleanup.py
 
+```
+
+
 
 ## License
 
