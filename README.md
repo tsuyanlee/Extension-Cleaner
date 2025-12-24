@@ -29,22 +29,26 @@ A simple Python command-line tool to find and delete files by extension from a s
 - No external dependencies (uses Python standard library only)
 
 ---
-
-## Usage
-
-### Run the script
-
-```bash
-python cleanup.py
-
+## Examples of use 
+1. Delete `.txt` files in `del` (non-recursive):
+```
+python cleanup_tool.py del .txt
+```
+2. Delete recursively:
+```
+python cleanup_tool.py del .txt -r
+```
+3. Dry run (list only):
+```
+python cleanup_tool.py del .txt --dry
 ```
 
-
+---
 
 ## License
 
 The MIT License (MIT)
-Copyright © 2025 Dev Rigan Koijam
+Copyright © 2025 DaveDrafts
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
